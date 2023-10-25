@@ -1,0 +1,542 @@
+/* OVERALLS */
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: #122620;
+}
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+.section-title {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+section:not(:last-of-type) {
+    border-bottom: 20px double #f4ebd0ad;
+}
+section {
+    padding: 60px;
+}
+
+
+
+/* HEADER ELEMENTS */
+header {
+    position:fixed;
+    width: 100%;
+    height: 75px;
+    background-color:#122620;
+    margin-bottom: 75px;
+    top:0;
+    left:0;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 7.5px solid #B68D40 ;
+    z-index: 3;
+}
+#company-logo {
+    height:75px;
+    width: auto;
+}
+nav {
+    padding: 10px;
+    width: 75%;
+    max-width: 1200px;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 5px;
+    margin-block: 0;
+    height: 100%;
+}
+nav > a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+    color:#F4EBD0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+#Contact {
+    background-color: #B68D40;
+    color:#F4EBD0;
+    width: 100px;
+    height: 30px;
+    padding-bottom: 5px;
+    text-align:center;
+    justify-content: center;
+    border-radius: 6px;
+}
+nav > a:hover {
+    color:#D6AD60;
+}
+
+#Contact:hover {
+    background-color: #F4EBD0;
+    color:#B68D40;
+}
+
+
+
+
+
+/* INTRODUCTION PAGE */
+.title-box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #122620;
+    max-width: 100%;
+    height: 800px;
+}
+#profile-pic {
+    height: 600px;
+    width: auto;
+    margin: auto;
+}
+.name-box {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    align-items: left;
+    margin: auto;
+}
+.title {
+    font-size: 72px;
+    color: #B68D40;
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+
+}
+.text-title {
+    font-size: 18px;
+    color: #D6AD60;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    margin-right: 45px;
+}
+
+/* LEARN MORE BUTTON */
+.button {
+    background-color: #B68D40;
+    color:#122620;
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.learn-more {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.button:hover {
+    color: #B68D40;
+    background-color: #122620;
+    box-shadow: 0px 0px 25px #F4EBD0;
+}
+
+
+
+
+/*
+.Navigation-Bar {
+    background-color: #B68D40;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin:15px;
+    border-radius: 6px;
+}
+.Icon {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.icon-nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.fas {
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icon-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.link {
+    text-decoration: none;
+    color:#F4EBD0;
+    background-color: #D6AD60;
+}
+.link:hover {
+    background-color:#122620;
+    color:#D6AD60;
+}
+#Icon-navigation h1 {
+    color:#B68D40;
+}
+.link:first-of-type {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.link:last-of-type {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+*/
+
+
+
+
+
+/* SKILL SECTION */
+#skill-section h1 {
+    color: #B68D40;
+    margin: 10px;
+}
+
+
+
+
+
+/* EXPERIENCE SECTION */
+.experiences {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    align-items: left;
+    margin: auto;
+    justify-content: left;
+    padding: 15px;
+}
+.career {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px;
+    /*border: 5px solid #f4ebd0a1; */
+    border-radius: 6px;
+    justify-self: left;
+    align-self: left;
+    height: auto;
+    padding: 10px;
+}
+.career-info {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    margin: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: left;
+    text-align: left;
+    
+}
+.exp-comp-logo {
+    max-width: 75px;
+    height: auto;
+    margin: auto;
+}
+.text {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #F4EBD0;
+}
+.experiences h2, .experiences h3 {
+    color: #D6AD60;
+}
+.experiences h3 {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#experience-section h1 {
+    color: #B68D40;
+}
+
+
+
+
+/* PASSION SECTION */
+#passion-section h1 {
+    color:#B68D40;
+    margin-bottom: 15px;
+}
+#passion-section h2 {
+    color:#122620;
+}
+.passion {
+    background-color: #D6AD60;
+    padding: 15px;
+    border-radius: 6px;
+}
+.about-astrophysics, .about-developer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 20px;
+    margin: 35px;
+}
+#astro, #dev {
+    height: auto;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+}
+.passion-text {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: center;
+    color: #122620;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+/* PROJECT SECTION */
+#projects h1 {
+    color: #B68D40;
+    margin-bottom: 15px;
+}
+.tile-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    padding: 5px;
+}
+#pjt {
+    width:350px;
+    height: auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.project-tile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.tile-title {
+    background-color: #B68D40;
+    width: 350px;
+    height: 24px;
+    color: #F4EBD0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    text-align: center;
+}
+.project-link {
+    text-decoration: none;
+    opacity: 0.8;
+}
+.project-link:hover {
+    opacity: 1.0;
+}
+.project-link .tile-title:hover {
+    color:#B68D40;
+    background-color: #F4EBD0;
+}
+
+
+
+
+
+/* CERTIFICATION SECTION */
+.certifications {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    align-items: left;
+    margin: auto;
+    justify-content: left;
+    padding: 15px;
+    row-gap: 15px;
+}
+.certificates {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px;
+    /*border: 5px solid #f4ebd0a1; */
+    border-radius: 6px;
+    justify-self: left;
+    align-self: left;
+    height: auto;
+    padding: 10px;
+}
+.certificate-info {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    margin: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: left;
+    text-align: left;
+    
+}
+.exp-comp-logo {
+    max-width: 75px;
+    height: auto;
+    margin: auto;
+}
+.issue-date {
+    text-decoration: solid;
+    color:#F4EBD0;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skill-set {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #F4EBD0;
+    background-color: #B68D40;
+    width:fit-content;
+    border-radius: 35px;
+    font-size: 18px;
+    margin: 5px;
+    padding: 7px;
+    text-align: center;
+}
+.certifications h2, .certifications h3 {
+    color: #D6AD60;
+}
+.certifications h3 {
+    font-weight: bold;
+}
+#certification-section h1 {
+    color: #B68D40;
+}
+
+
+
+
+
+/* CONTACT INFO */
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.contact-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-count: 15px;
+    margin:30px;
+}
+.icon-set {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align:center;
+}
+.icon-set h2 {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#profile-link {
+    text-decoration: none;
+    color:#D6AD60;
+    height:fit-content;
+}
+#profile-link:hover {
+    background-color:#B68D40;
+    padding:15px;
+    color:#F4EBD0;
+    border-radius: 6px;
+}
+.info h1 {
+    color:#B68D40;
+    padding:5px;
+}
+.icon-set {
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#F4EBD0;
+}
+.subtitle {
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    padding:5px;
+    margin-bottom: 10px;
+    color:#D6AD60;
+}
+
+
+
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: 40px;
+    background-color:#D6AD60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 7.5px solid #B68D40 ;
+}
+.page-turner {
+    position: fixed;
+    top: 92.5%;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle, rgba(244,235,208,1) 0%, rgba(190,158,111,1) 34%, rgba(182,141,64,1) 60%, rgba(18,38,32,1) 97%);
+}
+

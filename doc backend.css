@@ -1,0 +1,111 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    background-color:rgb(28, 80, 108);
+    color:beige;
+}
+
+header {
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+h2 {
+    font-size:large;
+    text-decoration: double;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+h2, p, table, li {
+    font-family:'Times New Roman', Times, serif ;
+}
+code {
+    color:rgb(28, 80, 108);
+    background-color: beige;
+    text-align:justify;
+    display: block;
+    padding: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+table td {
+    border: 2px solid beige;
+    width: 300px;
+    border-radius: 4px;
+}
+
+table {
+    border: 2px solid beige;
+}
+
+section {
+    padding: 25px;
+    border-bottom: 5px double beige;
+}
+
+#1 {
+    border-top: 5px double beige;
+}
+
+body {
+	display: grid;
+	grid-template-columns: minmax(300px, auto)1fr;
+	grid-template-areas: "navbar mainContent";
+	grid-gap: 20px;
+}
+
+#navbar {
+	grid-area: navbar;
+	position: fixed;
+    font-size: medium;
+    font-weight:bold ;
+}
+
+a.Website-link {
+    text-decoration:underline ;
+}
+a.Website-link:hover {
+    display: blockquote;
+    background-color: beige;
+    color:rgb(28, 80, 108);
+}
+
+a.nav-link:hover, table td:hover {
+    background-color: beige;
+    color:rgb(28, 80, 108);
+    font-weight: bold;
+}
+
+.highlight {
+    display: blockquote;
+    padding:4px;
+    background-color: beige;
+    color:rgb(28, 80, 108);
+    font-weight: bold;
+}
+
+.indent {
+    text-indent: 3px;
+}
+
+img, figcaption {
+    display: flex;
+    align-items: center;
+}
+
+figcaption {
+    font-style: italic;
+    
+}

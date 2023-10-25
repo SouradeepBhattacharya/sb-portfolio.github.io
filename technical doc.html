@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="doc backend.css">
+        <title>Everything about Python</title>
+    </head>
+    <body>
+        <div class="navigator">
+            <nav id="navbar">
+                <header>Python Documentation</header>
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><a href="#Hello_World" class="nav-link">Hello World</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#The_Worldly_Use" class="nav-link">The Worldly Use</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#Operators_In_Python" class="nav-link">Operators In Python</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#Functions_In_Python" class="nav-link">Functions In Python</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#Data_For_Python" class="nav-link">Data For Python</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#Reference" class="nav-link">Reference</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </nav>
+        </div>
+        <main id="main-doc">
+            <section class="main-section" id="Hello_World">
+                <header>Hello World</header>
+                <h2>Introduction</h2>
+                <p>Python is a widely used general-purpose, high level programming language. It was created by Guido van Rossum in 1991 and further developed by the Python Software Foundation. It was designed with an emphasis on code readability, and its syntax allows programmers to express their concepts in fewer lines of code.</p>
+                <p>Python is a programming language that lets you work quickly and integrate systems more efficiently.</p>
+                    <code>print("Hello World")</code>
+                <ul>
+                    <li>A Python statement is an instruction that the Python interpreter can execute. 
+                        There are different types of statements in Python language as Assignment statements, Conditional statements, Looping statements, etc. 
+                        The token character NEWLINE is used to end a statement in Python. 
+                        It signifies that each line of a Python script contains a statement. 
+                        These all help the user to get the required output.</li>
+                        <br>
+                    <li>Statement in Python can be extended to one or more lines using parentheses (), braces {}, square brackets [], semi-colon (;), and continuation character slash (\). 
+                        When the programmer needs to do long calculations and cannot fit his statements into one line, one can make use of these characters.</li>
+                </ul>
+                <p>For example:</p>
+                    <code>Declared using Continuation Character (\): <br>
+                        s = 1 + 2 + 3 + \ <br>
+                            4 + 5 + 6 + \ <br>
+                            7 + 8 + 9
+                    </code>
+                    <br>
+                    <code>
+                        Declared using parentheses () : <br>
+                        n = (1 * 2 * 3 + 7 + 8 + 9) <br>
+                    </code>
+                    <br>
+                    <code>
+                        Declared using square brackets [] : <br>
+                        footballer = ['MESSI',
+                                  'NEYMAR',
+                                  'SUAREZ']
+                    </code>
+                    <br>
+                    <code>  
+                        Declared using braces {} : <br>
+                        x = {1 + 2 + 3 + 4 + 5 + 6 + <br>
+                             7 + 8 + 9}
+                    </code>
+                    <br>
+                    <code>
+                        Declared using semicolons(;) : <br>
+                        flag = 2; ropes = 3; pole = 4
+                    </code>
+            </section>
+            <section class="main-section" id="The_Worldly_Use">
+                <header>The Worldly Use</header>
+                <h2>What are the uses of Python Language?</h2>
+                <p>Python is a high-level, interpreted, and general-purpose dynamic programming language that focuses on code readability. 
+                    It generally has small programs when compared to Java and C. 
+                    It was founded in 1991 by developer Guido Van Rossum. 
+                    Python ranks among the most popular and fastest-growing languages in the world. 
+                    Python is a powerful, flexible, and easy-to-use language. 
+                    In addition, the python community is very active. 
+                    It is used in many organizations as it supports multiple programming paradigms. 
+                    It also performs automatic memory management.</p>
+                <br>
+                <p class="highlight">Advantages</p>
+                <ul>
+                    <li>Presence of third-party modules </li>
+                    <li>Extensive support libraries(NumPy for numerical calculations, Pandas for data analytics, etc.) </li>
+                    <li>Open source and large active community base </li>
+                    <li>Versatile, Easy to read, learn and write</li>
+                    <li>User-friendly data structures </li>
+                    <li>High-level language </li>
+                    <li>Dynamically typed language(No need to mention data type based on the value assigned, it takes data type) </li>
+                </ul>
+                <br>
+                <p class="highlight">Applications</p>
+                <ul>
+                    <li>GUI-based desktop applications</li>
+                    <li>Graphic design, image processing applications, Games, and Scientific/ computational Applications</li>
+                    <li>Web frameworks and applications </li>
+                    <li>Enterprise and Business applications </li>
+                    <li>Operating Systems </li>
+                    <li>Education</li>
+                    <li>Database Access</li>
+                    <li>Language Development </li>
+                    <li>Prototyping </li>
+                </ul>
+            </section>
+            <section class="main-section" id="Operators_In_Python">
+                <header>Operators In Python</header>
+                <p>In Python programming, Operators in general are used to perform operations on values and variables. 
+                    These are standard symbols used for the purpose of logical and arithmetic operations. 
+                    In this article, we will look into different types of Python operators. </p>
+                <br>
+                <ul>
+                    <li><b>OPERATORS</b>: These are the special symbols. Eg- + , * , /, etc.</li>
+                    <li><b>OPERAND</b>: It is the value on which the operator is applied.</li>
+                </ul>
+                <br>
+                <p>For Example:</p>
+                <code># python program to demonstrate the use of "/" <br>
+                    print(5/5)<br>
+                    print(10/2)<br>
+                    print(-10/2)<br>
+                    print(20.0/2)<br>
+                    <br>
+                    <br>
+                    Output:<br>
+                    1.0<br>
+                    5.0<br>
+                    -5.0<br>
+                    10.0<br>
+                </code>
+                <br>
+                <p>There are various types of Operators</p>
+                <ul>
+                    <li>Arithmetic Operators</li>
+                    <li>Comparison Operators</li>
+                    <li>Logical Operators</li>
+                    <li>Bitwise Operators</li>
+                    <li>Assignment Operators</li>
+                    <li>Identity Operators and Membership Operators</li>
+                </ul>
+                <br>
+                <p class="highlight">Arithmetic Operators</p>
+                <p>Python Arithmetic operators are used to perform basic mathematical operations like addition, subtraction, multiplication, and division.</p>
+                <br>
+                <p class="highlight indent">Precedence of Arithmetic Operators in Python</p>
+                <ol class="indent">
+                    <li><b>P</b> - Parentheses</li>
+                    <li><b>E</b> - Exponentiation</li>
+                    <li><b>M</b> - Multiplication</li>
+                    <li><b>D</b> - Division</li>
+                    <li><b>A</b> - Addition</li>
+                    <li><b>S</b> - Subtraction</li>
+                </ol>
+            </section>
+            <section class="main-section" id="Functions_In_Python">
+                <header>Functions In Python</header>
+                <p>Python Functions is a block of statements that return the specific task. 
+                    The idea is to put some commonly or repeatedly done tasks together and make a function 
+                    so that instead of writing the same code again and again for different inputs, we can do the function calls to 
+                    reuse code contained in it over and over again.</p>
+                <br>
+                <p class="highlight">Python Function Declaration</p>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220721172423/51.png" width="350" height="auto">
+                <figcaption>Syntax of Python Function Declaration</figcaption>
+                <br>
+                <p>There are mainly two types of functions in Python.</p>
+                <ul>
+                    <li>Built-in library function: These are Standard functions in Python that are available to use.</li>
+                    <li>User-defined function: We can create our own functions based on our requirements.</li>
+                </ul>
+                <br>
+                <br>
+                <p class="highlight">Example</p>
+                <code># A simple Python function<br>
+                    def fun():<br>
+                        print("Welcome to GFG")<br>
+                        <br>
+                        <br>
+                    # Driver code to call a function<br>
+                    fun()<br>
+                    <br>
+                    <br>
+                    Output:<br>
+                    Welcome to GFG
+                </code>
+                <ul>
+                    <li></li>
+                </ul>
+            </section>
+            <section class="main-section" id="Data_For_Python">
+                <header>Data For Python</header>
+                <h2>Different Types of Data in Python</h2>
+                <p class="highlight">Strings in Python:</p> 
+                <p>A string is a sequence of characters that can be a combination of letters, numbers, and special characters. 
+                    It can be declared in python by using single quotes, double quotes, or even triple quotes. 
+                    These quotes are not a part of a string, they define only starting and ending of the string.  
+                    Strings are immutable, i.e., they cannot be changed. Each element of the string can be accessed using indexing or slicing operations.</p>
+                <br>
+                <p class="highlight">Lists in Python: </p>
+                <p>Lists are one of the most powerful data structures in python. 
+                    Lists are sequenced data types.  
+                    In Python, an empty list is created using list() function. 
+                    They are just like the arrays declared in other languages. 
+                    But the most powerful thing is that list need not be always homogeneous. 
+                    A single list can contain strings, integers, as well as other objects. 
+                    Lists can also be used for implementing stacks and queues. Lists are mutable, i.e., they can be altered once declared. 
+                    The elements of list can be accessed using indexing and slicing operations.</p>
+                <br>
+                <p class="highlight">Tuples in Python:</p>
+                <p>A tuple is a sequence of immutable Python objects. 
+                    Tuples are just like lists with the exception that tuples cannot be changed once declared. 
+                    Tuples are usually faster than lists.</p>
+                <br>
+                <p class="highlight">Examples</p>
+                <code>
+                    # Declaring a list<br>
+                    L = [1, "a" , "string" , 1+2]<br>
+                    print L<br>
+                    #Adding an element in the list<br>
+                    L.append(6)	<br>
+                    print L<br>
+                    #Deleting last element from a list<br>
+                    L.pop()<br>
+                    print L<br>
+                    #Displaying Second element of the list<br>
+                    print L[1]<br>
+                    <br>
+                    <br>
+                    Output:<br>
+                    [1, 'a', 'string', 3]<br>
+                    [1, 'a', 'string', 3, 6]<br>
+                    [1, 'a', 'string', 3]<br>
+                    a
+                </code>
+                <br>
+                <code>
+                    # Iteration<br>
+                    i = 1<br>
+                    while (i < 10):<br>
+                        print(i)<br>
+                        i += 1<br>
+                        <br>
+                        <br>
+                    Output:<br>
+                    1<br>
+                    2<br>
+                    3<br>
+                    4<br>
+                    5<br>
+                    6<br>
+                    7<br>
+                    8<br>
+                    9<br>
+                    10<br>
+                </code>
+            </section>
+            
+            <section class="main-section" id="Reference">
+                <header>Reference</header>
+                <p>For more details on Python Language Check <a href="https://www.geeksforgeeks.org/introduction-to-python/?ref=lbp" class="Website-link">GeeksForGeeks</a></p>
+            </section>
+        </main>
+    </body>
+</html>

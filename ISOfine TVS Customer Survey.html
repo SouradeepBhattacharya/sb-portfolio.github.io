@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Survey Project</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <div class="bodice">
+        <body>
+            <h1 id="title">Customer Satisfaction Survey</h1>
+            <center><img src="https://1000logos.net/wp-content/uploads/2020/07/TVS-Motor-Company.png" width="200" alt="ISOfine® TVS Logo"><center>
+            <p id="description"><strong>ISOfine® TVS</strong> 
+                kindly requests you to fill this satisfaction survey, 
+                so that we can provide the 
+                <em>The Fine Clientele Experience</em>.
+            </p>
+            <p><strong>__Star Dealer of Haryana__</strong></p>
+            <div class="forum">
+                <form action="www.demo.com" id="survey-form" method="post">
+                    <h2 id="Section-1">User Details</h2>
+                    <fieldset>
+                        <label id="name-label">
+                            Full Name
+                            <input type="text" id="name" placeholder="Your Name goes here" required>
+                        </label>
+                        <label>
+                            Place of residence
+                            <Select id="dropdown">
+                                <option>--(select one)--</option>
+                                <option>Ambala</option>
+                                <option>Chandigarh</option>
+                                <option>Panchkula</option>
+                                <option>Mohali</option>
+                            </Select>
+                        </label>
+                        <label id="email-label">
+                            Email
+                            <input type="email" id="email" placeholder="Your email goes here" required>
+                        </label>
+                        <label class="phone" id="phone-label"> Contact Detail
+                            <select id="country-code">
+                                <option>--(select country code)--</option>
+                                <option value="91">India  +91</option>
+                                <option value="1">United States  +1</option>
+                                <option value="82">Korea, Republic of  +82</option>
+                                <option value="52">Mexico  +52</option>
+                                <option value="974">Qatar  +974</option>
+                                <option value="7">Russian Federation  +7</option>
+                            </select>
+                            <input type="tel" minlength="10" maxlength="10" placeholder="Your Phone Number">
+                        </label>
+                    </fieldset>
+                    <h2 id="Section-2">Visiting Details</h2>
+                    <fieldset>
+                        <label>
+                            Date of Visit
+                            <input type="date" id="date">
+                        </label>
+                        <label>
+                            Purpose of Visit
+                            <select id="purpose" required>
+                                <option>--(select one)--</option>
+                                <option>Walk-in Demo</option>
+                                <option>Purchase of new vehicle</option>
+                                <option>Detail regarding Finance</option>
+                                <option>Vehicle Registration</option>
+                                <option>Service</option>
+                                <option>Purchase of Accessories</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <h2 id="Section-3">Sales Department</h2>
+                    <fieldset>
+                        <legend>How would you rate the Product Demo?</legend>
+                            <label>
+                                <input type="radio" value="1" name="rating" checked>1
+                            </label>
+                            <label>
+                                <input type="radio" value="2" name="rating" checked>2
+                            </label>
+                            <label>
+                                <input type="radio" value="3" name="rating" checked>3
+                            </label>
+                            <label>
+                                <input type="radio" value="4" name="rating" checked>4
+                            </label>
+                            <label>
+                                <input type="radio" value="5" name="rating" checked>5
+                            </label>
+                        <label>
+                            Which Sales Person Attendant your request?
+                            <select id="prefix">
+                                <option>---</option>
+                                <option>Mr.</option>
+                                <option>Ms.</option>
+                            </select>
+                            <input type="text">
+                        </label>
+                        <label>
+                            Was the salesperson well dressed?
+                            <select id="Y/N" required>
+                                <option>----</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <h2 id="Section-4">Service Department</h2>
+                    <fieldset>
+                        <legend>How would you rate the Product Service?</lengend>
+                            <label>
+                                <input type="radio" value="1" name="ratings" checked><p>1</p>
+                            </label>
+                            <label>
+                                <input type="radio" value="2" name="ratings" checked><p>2</p>
+                            </label>
+                            <label>
+                                <input type="radio" value="3" name="ratings" checked><p>3</p>
+                            </label>
+                            <label>
+                                <input type="radio" value="4" name="ratings" checked><p>4</p>
+                            </label>
+                            <label>
+                                <input type="radio" value="5" name="ratings" checked><p class="radiotype">5</p>
+                            </label>
+                        <label>
+                            Who handled the request?
+                            <select id="prefix">
+                                <option>---</option>
+                                <option>Mr.</option>
+                                <option>Ms.</option>
+                            </select>
+                            <input type="text">
+                        </label>
+                        <label>
+                            Was the Issue well addressed?
+                            <select id="Y/N">
+                                <option>----</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </label>
+                        <label>
+                            How often do you request product service?
+                            <select id="service-frequency">
+                                <option>--(select one)--</option>
+                                <option>Once a Month</option>
+                                <option>Quarterly</option>
+                                <option>Biannually</option>
+                                <option>Annually</option>
+                                <option>Other</option>
+                            </select>
+                            * If Other please specify <input type="text">
+                        </label>
+                    </fieldset>
+                    <h2 id="Section-4">Product Preference</h2>
+                    <fieldset>
+                        <label id="number-label">
+                            How many Products are you looking for?
+                            <input type="number" max="100" min="0" id="number" placeholder="Quantity">
+                        </label>
+                        <p>Which model suits your preference?</p>
+                        <label class="bikes">
+                            <h3>Family 2-wheeler</h3>
+                            <input type="checkbox" id="NTorq" value="NTorq" name="vehicle">NTorq
+                            <input type="checkbox" id="Jupiter" value="Jupiter" name="vehicle">Jupiter
+                            <input type="checkbox" id="Luna" value="Luna" name="vehicle">Luna
+                        </label>
+                        <label>
+                            <h3>Sports Bike</h3>
+                            <input type="checkbox" id="RR" value="RR" name="vehicle">RR
+                            <input type="checkbox" id="Ronin" value="Ronin" name="vehicle">Ronin
+                            <input type="checkbox" id="Apache" value="Apache" name="vehicle">Apache
+                            <input type="checkbox" id="Rador" value="Rador" name="vehicle">Rador
+                        </label>
+                        <label>
+                            <h3>Electric Vehicle</h3>
+                            <input type="checkbox" id="iQube" value="iQube" name="vehicle">iQube
+                            <input type="checkbox" id="E-rickshaw" value="E-rickshaw" name="vehicle">E-rickshaw
+                        </label>
+                    </fieldset>
+                    <h2 id="Section-5">Community</h2>
+                    <fieldset>
+                        <label>
+                            How Likely are you to visit our showroom again?
+                            <select id=“Likeliness”>
+                                <option>—(select one)—</option>
+                                <option>Absolutely Sure</option>
+                                <option>Sure</option>
+                                <option>Likely</option>
+                                <option>Maybe</option>
+                                <option>Not Sure</option>
+                            </select>
+                        </label>
+                        <label>
+                            How did you hear about us?
+                            <select id="popularity">
+                                <option>—(select one)—</option>
+                                <option>Friends</option>
+                                <option>Advertisement</option>
+                                <option>Canopy Camp</option>
+                                <option>Social Event</option>
+                                <option>Instagram</option>
+                                <option>Facebook</option>
+                                <option>Company Personnel</option>
+                            </select>
+                        </label>
+                        <label>
+                            Anything else you would like us to service?
+                            <textarea id="Extra-improvement" rows="5" cols="40" placeholder="I would like ISOfine® TVS to..."></textarea>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="checkbox" id="tnc" value="tnc" required><label for="tnc">I agree to the <a href="https://www.tvsmotor.com/en/ht/terms-and-conditions">Terms and Conditions</a></label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="checkbox" value="insta" id="insta" required display="inline"><label for="insta"> I have visited <a href="https://www.instagram.com/tvsambala/">ISOfine® TVS </a> social handled</label>     
+                    </fieldset>
+                    <button type="submit" value="Submit" id="submit">Submit</button>
+                </form>
+            </div>
+        </body>
+    </div>
+</html>
